@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\Учеба\Степанюк\Готовые лабораторные\Лабораторная работа 7\задание 2\MTSProgram\MTSProgram\bin\Debug\MTSProgram.exe.config
+C:\Users\User\Desktop\Учеба\Степанюк\Готовые лабораторные\Лабораторная работа 7\задание 2\MTSProgram\MTSProgram\bin\Debug\MTSProgram.exe
+C:\Users\User\Desktop\Учеба\Степанюк\Готовые лабораторные\Лабораторная работа 7\задание 2\MTSProgram\MTSProgram\bin\Debug\MTSProgram.pdb
+C:\Users\User\Desktop\Учеба\Степанюк\Готовые лабораторные\Лабораторная работа 7\задание 2\MTSProgram\MTSProgram\obj\Debug\MTSProgram.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Учеба\Степанюк\Готовые лабораторные\Лабораторная работа 7\задание 2\MTSProgram\MTSProgram\obj\Debug\MTSProgram.Form1.resources
+C:\Users\User\Desktop\Учеба\Степанюк\Готовые лабораторные\Лабораторная работа 7\задание 2\MTSProgram\MTSProgram\obj\Debug\MTSProgram.Properties.Resources.resources
+C:\Users\User\Desktop\Учеба\Степанюк\Готовые лабораторные\Лабораторная работа 7\задание 2\MTSProgram\MTSProgram\obj\Debug\MTSProgram.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Учеба\Степанюк\Готовые лабораторные\Лабораторная работа 7\задание 2\MTSProgram\MTSProgram\obj\Debug\MTSProgram.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Учеба\Степанюк\Готовые лабораторные\Лабораторная работа 7\задание 2\MTSProgram\MTSProgram\obj\Debug\MTSProgram.exe
+C:\Users\User\Desktop\Учеба\Степанюк\Готовые лабораторные\Лабораторная работа 7\задание 2\MTSProgram\MTSProgram\obj\Debug\MTSProgram.pdb
