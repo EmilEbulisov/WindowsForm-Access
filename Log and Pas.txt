@@ -1,2 +1,2 @@
-Login: admin
-Password: admin
+пароль для базы данных с паролями (login: emil; password: emil)
+пароль для общей базы данных (login: admin; password: admin) 

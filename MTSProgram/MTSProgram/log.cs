@@ -36,26 +36,29 @@ namespace MTSProgram
             Form1 ss = new Form1();
             if (dt.Rows[0][0].ToString() == "1")
             {
-                if (a == true)
-                {
-                    this.Hide();
-                    ss.Show();
-                }
-                else if (textBox1.Text == "admin" && textBox2.Text == "admin")
-                {
-                    button1.Visible = true;
-                    a = true;
-                }
-                else
-                {
-                    this.Hide();
-                    ss.Show();
-                }
+                this.Hide();
+                ss.Show(); // открыть форму Form1
+            }
+            else if (textBox1.Text == "emil" && textBox2.Text == "emil") 
+            {
+                this.Hide();
+                log gg = new log();
+                gg.button2.Visible = true; //показать кнопку «Регистрация»
+                gg.Show();
             }
             else
             {
                 MessageBox.Show("Неправильно введен Логин и (или) Пароль");
             }
+            
+        }
+
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 ss = new Form2();
+            this.Hide();
+            ss.Show();
         }
     }
 }

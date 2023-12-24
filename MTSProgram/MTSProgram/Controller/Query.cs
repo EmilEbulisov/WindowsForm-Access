@@ -52,5 +52,35 @@ namespace MTSProgram.Controller
             command.ExecuteNonQuery();
             connection.Close();
         }
+
+
+        public DataTable UpdateUser()//метод обновления
+        {
+            connection.Open();
+            dataAdapter = new OleDbDataAdapter("SELECT * FROM [User]", connection);
+            bufferTable.Clear();
+            dataAdapter.Fill(bufferTable);
+            connection.Close();
+            return bufferTable;
+
+        }
+
+        public void AddUser(string Login, string Password)
+        {
+            connection.Open();
+            command = new OleDbCommand($"INSERT INTO [User](Login, Password) VALUES (@Login, @Password", connection);
+            command.Parameters.AddWithValue("Login", Login);
+            command.Parameters.AddWithValue("Password", Password);
+            command.ExecuteNonQuery();
+            connection.Close();
+        }
+        public void DeleteUser(int ID)
+        {
+            connection.Open();
+            command = new OleDbCommand($"DELETE FROM [User] WHERE ID = {ID}", connection);
+            command.ExecuteNonQuery();
+            connection.Close();
+        }
+
     }
 }
